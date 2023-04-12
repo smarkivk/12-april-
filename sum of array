@@ -5,7 +5,7 @@ public class Solution {
 
 	public static void main(String[] args) throws Exception
 	{
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); //BufferedReader(Reader rd)	It is used to create a buffered character input stream that uses the default size for an input buffer.
 		br.readLine();
 		int output=0;
 		String[] input = br.readLine().split(" ");
